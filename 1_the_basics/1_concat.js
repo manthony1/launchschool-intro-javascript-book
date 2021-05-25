@@ -1,5 +1,5 @@
-let first = 'Michael';
-let last = 'Anthony';
+let first = 'John';
+let last = 'Doe';
 
 let full = first + ' ' + last;
 console.log(full);
