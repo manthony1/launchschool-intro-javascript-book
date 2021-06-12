@@ -10,4 +10,4 @@ function evenorOdd (input) {
   }
 }
 
-evenorOdd(5);
+evenorOdd('5');
