@@ -7,5 +7,5 @@ function factorial (n) {
   return n * factorial(n - 1);
 }
 
-number = 5;
+number = 8;
 console.log(factorial(number));
