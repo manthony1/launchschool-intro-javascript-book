@@ -5,9 +5,19 @@ let myArray = [
 ];
 
 
-//console.log(myArray.length);
-//console.log(myArray[0]);
 
-for (i=0; i < myArray.length; i++) {
-  console.log(myArray[i]);
+function getEven (inputArray) {
+  for (i=0; i < myArray.length; i++) {
+    for (j = 0; j < myArray[i].length; j++) {
+      let value = myArray[i][j];
+      //let newArray = [];
+      if (value %2 === 0) {
+        console.log(value);
+        //newArray.push(value);
+        //console.log(newArray);
+      }
+    }
+  }
 }
+
+getEven(myArray);
