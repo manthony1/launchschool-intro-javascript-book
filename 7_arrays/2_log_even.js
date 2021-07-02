@@ -27,6 +27,7 @@ function dupeandSort(array) {
   for (i = 0; i < newArray.length; i++) {
     let myval = newArray[i];
       if (myval % 2 === 0) {
+        
         console.log(myval);
         //return myval;
       }

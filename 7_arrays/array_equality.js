@@ -4,6 +4,7 @@ function arraysEqual(arr1, arr2) {
 
   //check each item in arr1 to check if it is not equal numerically or in type to arr2
   //
+  
   for (let i = 0; i < arr1.length; i += 1) {
     if (arr1[i] !== arr2[i]) {
       return false;
