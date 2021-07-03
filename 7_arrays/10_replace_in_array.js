@@ -15,10 +15,13 @@ function findSix (arr) {
     for (let i = 0; i < element.length; i++) {
       if (element[i] === 6) {
         element[i] = 606;
+        //return console.log(element[i]);
+        //return console.log(element);
       }
     } 
   });
   return console.log(arr);
+  
 }
 
 findSix(arr);
